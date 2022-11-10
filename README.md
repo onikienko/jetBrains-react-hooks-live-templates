@@ -19,4 +19,7 @@ Next templates are available:
 - **ruc** to `React.useCallback`
 - **rum** to `React.useMemo`
 
+<img width="651" alt="image" src="https://user-images.githubusercontent.com/3234928/201136772-f50c6f09-6cfd-4bd8-a736-98f6dcb384bb.png">
+
+
 Expand Live Template with `Tab` (by default).
