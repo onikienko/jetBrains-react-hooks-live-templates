@@ -23,3 +23,8 @@ Next templates are available:
 
 
 Expand Live Template with `Tab` (by default).
+
+E.g. typing `rue` and pressing `Tab` will exand into this:
+
+<img width="492" alt="image" src="https://user-images.githubusercontent.com/3234928/201137405-ba440820-27da-4720-91a9-248e830971c2.png">
+
