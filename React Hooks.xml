@@ -1,0 +1,35 @@
+<templateSet group="React Hooks">
+  <template name="ruc" value="const $VAR$ = React.useCallback(() =&gt; $RETURN$, [$DEP$]);" description="React.useCallback" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEP" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_CLASS_MEMBER_STATEMENT" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rue" value="React.useEffect(() =&gt; {&#10;    $END$&#10;}, [$1$]);" description="React.useEffect" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_CLASS_MEMBER_STATEMENT" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rus" value="const [$value$, $setValue$] = React.useState($END$);" description="React.useState" toReformat="false" toShortenFQNames="true">
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="setValue" expression="concat(&quot;set&quot;,capitalize(value))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_CLASS_MEMBER_STATEMENT" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rum" value="const $VAR$ = React.useMemo(() =&gt; $RETURN$, [$DEP$]);" description="React.useMemo" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DEP" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_CLASS_MEMBER_STATEMENT" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
